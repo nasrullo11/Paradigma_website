@@ -1,0 +1,279 @@
+.montaj-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.msm {
+    margin-bottom: 2.4rem;
+}
+
+.montaj-cont {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 2.77rem;
+    line-height: 1.1;
+    position: relative;
+    z-index: 2;
+}
+
+.mbm {
+    margin-bottom: 0.7rem;
+}
+
+.fw3 {
+    font-weight: 300;
+}
+
+.montaj-box {
+    width: 60%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.montaj-item {
+    width: 31%;
+}
+
+.montaj-item__img {
+    position: relative;
+    height: 20.5rem;
+}
+
+.mb {
+    margin-bottom: 2rem;
+}
+
+.montaj-item__img img {
+    width: 100%; 
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.montaj-item__tg {
+    position: absolute;
+    left: 1.5rem;
+    bottom: 1.5rem;
+    padding: 0.6rem 1rem;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #fbd866;
+}
+
+.mlg {
+    margin-bottom: 4.5rem;
+}
+
+.t16 {
+    line-height: 1.2;
+}
+
+.t30 {
+    font-size: 1.5rem;
+}
+
+.t34 {
+    font-size: 1.77rem;
+}
+
+.mb2 {
+    margin-bottom: 1.4rem;
+}
+
+.fwb {
+    font-weight: 700;
+}
+
+.montaj-item-list__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.montaj-ns .title-lg {
+    position: relative;
+}
+
+.mbs {
+    margin-bottom: 0.41rem;
+}
+
+.title-lg {
+    font-size: 3.1rem;
+    line-height: 1;
+}
+
+.mr {
+    margin-right: 1rem;
+}
+
+.montaj-ns .title-lg::before {
+    content: "";
+    position: absolute;
+    width: 1.5rem;
+    height: 4px;
+    left: 0;
+    top: 0;
+    -webkit-transform: translate(-100%, -100%) rotate(-45deg);
+    -ms-transform: translate(-100%, -100%) rotate(-45deg);
+    transform: translate(-100%, -100%) rotate(-45deg);
+    background-color: #fe5851;
+}
+
+.t20 {
+    font-size: 0.9rem;
+}
+
+.tac {
+    text-align: center;
+}
+
+.objects .title {
+    font-size: 2.2rem;
+}
+
+.montaj-ns.t2 {
+    border-radius: 25px;
+    background-color: #edf3f6;
+    padding: 2rem;
+      padding-left: 2rem;
+    padding-left: 3rem;
+}
+
+.object-slider {
+    display: flex !important;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.object-slider-left {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.object-slider-left-col {
+    width: 26%;
+}
+
+.object-slider-left-img {
+    height: 6.9rem;
+    display: block;
+    margin-bottom: 0.8rem;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.object-slider-left-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.a {
+    height: 37.55rem;
+    width: 70%;
+    margin-bottom: 0;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.a img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.object-slider-right {
+    width: 45%;
+}
+
+.object-slider-right-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.object-right-row-left {
+    width: 47%;
+}
+
+.object-right-row-right {
+    width: 46%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+
+.t38 {
+    font-size: 2rem;
+    position: relative;
+    z-index: 2;
+    color: #282828;
+}
+
+.t24 {
+    color: #282828;
+    font-size: 1.25rem;
+}
+
+.header-pin {
+    display: flex;
+    align-items: center;
+}
+
+.header-pin-img {
+    width: 1.4rem;
+    height: 1.4rem;
+    margin-right: 0.6rem;
+}
+
+.location {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.ob-box {
+    width: 47%;
+    padding: 1.5rem 0.5rem;    
+    border-radius: 25px;
+    background-color: #edf3f6;
+}
+
+.objects-btn {
+    display: flex;
+    width: 47%;
+    justify-content: center;
+}
